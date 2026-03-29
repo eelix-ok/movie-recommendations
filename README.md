@@ -1,17 +1,30 @@
-# movie-recommendations
+# Movie Recommendations
 
-This application allows users to share movie recommendations.
+## Description
+This application allows users to share and browse movie recommendations.  
 
-Users can create an account and log in to the application.
+---
 
-Users can add movies to the application and edit or delete the movies they have added.
+## Features
+- User authentication (register & login)
+- Add, edit, delete movies
+- View movies added by other users
+- Search up movies
+- Add categories to movies
+- Comment on movies
+- Rate movies
 
-Users can see all movies added by themselves and by other users.
+## Installation and setup
 
-Users can search movies by title.
-
-Each user has a user page that shows the movies added by that user.
-
-Movies can have one or more categories.
-
-Users can comment on movies and give ratings.
+- Clone the repository
+    git clone https://github.com/eelix-ok/movie-recommendations.git
+    cd movie-recommendations
+- Create a Python virtual enviroment
+    python -m venv venv
+- Activate the virtual enviroment
+    venv\Scripts\activate
+- Create the database
+    python init_db.py
+- Run it
+    flask run
+- Open it in your browser
