@@ -1,8 +1,0 @@
-# Virtual environment
-venv/
-
-# SQLite database file
-database.db
-
-# Python cache files
-__pycache__/
